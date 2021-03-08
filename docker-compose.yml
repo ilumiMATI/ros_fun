@@ -4,6 +4,7 @@ services:
         image: adohaha/fun_ros:ros1
         volumes:
             - ./jupyter_notebooks:/home/ubuntu/catkin_ws/src/jupyter_notebooks
+            - ./cwiczenia:/home/ubuntu/catkin_ws/src/cwiczenia
         ports: 
             - 6080:80
             - 8888:8888
